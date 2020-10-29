@@ -1,0 +1,203 @@
+body{
+    height: 200%;
+    margin: 0%;
+    background-color: black;
+
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#openingFoto{
+    position: relative;
+    width: auto;
+    height: 50%;
+    z-index: 0;
+}
+
+#navButtons{
+    position: absolute;
+    left: 40%;
+    top: 65%;
+    opacity: 0;
+}
+
+.navButtonsInner{
+    position: relative;
+    padding: 5px;
+    color: white;
+    font-size: 25px;
+    border: white 1px solid;
+    border-radius: 60px;
+}
+
+.navButtonsOuter{
+    position: relative;
+    padding: 5px;
+    margin-left: 50px;
+    float: left;
+    border: white 3px solid;
+    border-radius: 70px;
+    cursor: pointer;
+}
+
+#openingFotoTitle{
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 0%;
+    left: 30%;
+    z-index: 1;
+    color: white;
+    font-size: 90;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    opacity: 0;
+}
+
+
+.textTop{
+    position: absolute;
+    height: auto;
+    width: auto;
+    border: black 2px solid;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30;
+    top: 10%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.textBottom{
+    position: absolute;
+    height: auto;
+    width: auto;
+    border: black 2px solid;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30;
+    bottom: 5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+
+
+
+
+/* flexbox 1 */
+#flexbox1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 30%;
+    margin-top: 1%;
+}
+
+#img0{
+    position: relative;
+    width: 40%;
+    height: 100%;
+    float: left;
+    flex: 50%;
+
+}
+
+#text0{
+    position: relative;
+    width: 60%;
+    height: 100%;
+    float: left;
+    background-color: white;
+    flex: 50%;
+}
+
+/* flexbox 2 */
+#flexbox2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 30%;
+    margin-top: 1%;
+}
+
+#img1{
+    position: relative;
+    width: 40%;
+    height: 100%;
+    float: left;
+    flex: 50%;
+
+}
+
+#text1{
+    position: relative;
+    width: 60%;
+    height: 100%;
+    float: left;
+    background-color: white;
+    flex: 50%;
+}
+
+/* flexbox 3 */
+#flexbox3{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 30%;
+    margin-top: 1%;
+}
+
+#img2{
+    position: relative;
+    width: 40%;
+    height: 100%;
+    float: left;
+    flex: 50%;
+
+}
+
+#text2{
+    position: relative;
+    width: 60%;
+    height: 100%;
+    float: left;
+    background-color: white;
+    flex: 50%;
+}
+
+#closingFoto{
+    position: relative;
+    width: auto;
+    margin-top: 1%;
+    height: 50%;
+    z-index: 0;
+}
+
+#registerButton{
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 7px;
+    padding-top: 5px;
+    font-size: 100px;
+    color: white;
+    border: 3px white solid;
+    border-radius: 60px;
+}
+
+#buttonOuter{
+    position: absolute;
+    padding: 8px;
+    left: 38%;
+    top: 40%;
+    height: auto;
+    width: auto;
+    border: 8px white solid;
+    border-radius: 70px;
+    cursor: pointer;
+}
+
