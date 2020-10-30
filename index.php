@@ -10,6 +10,12 @@
 
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Road trip door europa">
+        <meta name="keywords" content="road, trip, 50, plus, SUV">
+        <meta name="author" content="Jarod Iking">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         <title>
             50 plus SUV Road trip
         </title>
