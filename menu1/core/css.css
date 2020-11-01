@@ -3,6 +3,11 @@ body, html{
     margin: 0%;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
+
 .background-image {
     position: absolute;
     left: 0;
@@ -26,14 +31,16 @@ body, html{
     position: relative;
     padding: 10px;
     margin: auto;
-    top: 8%;
+    top: 9%;
     width: 50%;
     height: auto;
+    max-height: 85%;
     border: white 2px solid;
     border-radius: 20px;
     z-index: 1;
     color: white;
     text-align: center;
+    overflow-y: scroll;
 }
 
 .title{
