@@ -30,13 +30,13 @@
         <div id='openingFotoTitle'>De 50+ SUV roadtrip</div>
 
         <div id='navButtons'>
-          <div class='navButtonsOuter'>
+          <div id='ourVision' class='navButtonsOuter'>
             <div class='navButtonsInner'>
                 Onze Visie
             </div>
           </div>
 
-          <div class='navButtonsOuter'>
+          <div id='howItWorks' class='navButtonsOuter'>
             <div class='navButtonsInner'>
                 Hoe Werkt het?
             </div>

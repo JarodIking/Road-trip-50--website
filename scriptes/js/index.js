@@ -2,15 +2,31 @@ window.addEventListener('load', () => {
     const title = document.getElementById('openingFotoTitle');
     const navButs = document.getElementById('navButtons');
     const reg = document.querySelector('#registerButton');
+    const vision = document.querySelector('#ourVision');
+    const how = document.querySelector('#howItWorks');
 
-    reg.onclick = ()=>{
-        window.location.href ="registeration/";
+    vision.onclick = ()=>{
+        window.location.href ="menu1/";
+    }
+
+    how.onclick = ()=>{
+        window.location.href ="menu2/";
     }
 
 
 
 
 
+
+
+
+
+
+
+
+    reg.onclick = ()=>{
+        window.location.href ="registeration/";
+    }
 
 
     // title animation
