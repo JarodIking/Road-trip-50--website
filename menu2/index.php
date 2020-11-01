@@ -22,24 +22,43 @@
 
     <div class='textbox'>
         <div class='title'>
-        Onze visie
-        </div>
-        <div class='text'>
-        Waarom een 50+ SUV trip? Wij zijn zelf 50+ en houden erg van reizen.
-        We willen alleen niet meer de druk van het moeten, het snelle, het jagen, het volledig georganiseerde ritje, verplichtingen en risicovolle auto’s die onderweg panne krijgen.
-        Wat willen we wel? Mooie routes, genieten zonder tijdsdruk, sociale contacten op momenten dat we daar wel behoefte aan hebben, cultuur, ontspanning, lekker eten en een stukje georganiseerd avontuur.
-        Dit is wat we graag willen leveren aan onze deelnemers.
+        Hoe werkt het?
         </div>
 
         <div class='text'>
-        Wij denken en hopen dit te kunnen organiseren door middel van deze 50+ grens, waarin wij denken gelijkgestemden te vinden. Mannen en vrouwen die zeker nog van avontuur en reizen houden maar waar het niet meer om het snelle racen gaat. Moet je 50+ zijn? Nee, als jij jezelf als 35-jarige thuis voelt tussen een groep van 50+ ben je van harte welkom, we willen gewoon graag wel een bepaalde uitstraling geven als groep.
+        Hoe gaat het nu precies in zijn werk deze 50+ SUV roadtrip en wat kan je verwachten?
         </div>
+
         <div class='text'>
-        Met SUV auto’s zodat we goed voorbereid met veilige auto’s op reis gaan, maar wel een soort van groep samen vormen en ons dus toch onderscheiden. Sluiten we andere auto’s uit? Nee dat niet, maar we willen hiermee aangeven dat niet gaat om een “vuilnisbakken race” met opgesierde autos die ouder zijn dan 15 jaar.
+        Als eerste houden wij nog even geheim waar de reis naar toe zal gaan, dat krijg je pas een aantal maanden van te voren te horen.
         </div>
+
         <div class='text'>
-        Gaan wij alle slaapplekken en restaurants vastleggen voor jullie? Nee, omdat we nooit iedereen tevreden kunnen zullen stellen, mogen jullie zelf de overnachtingen en restaurants regelen. Wel krijgen jullie een paar maanden voor vertrek te horen wat ongeveer de route is zodat jullie op tijd kunnen reserveren ergens mochten jullie dat willen en natuurlijk geven we onze persoonlijke tips door voor onderweg.
+        Het begint met je inschrijving en registratie als deelnemer via het contactformulier. Dat staat (hier).
         </div>
+
+        <div class='text'>
+        Na de inschrijving en betaling krijg je van ons een bevestiging van deelname.
+        </div>
+
+        <div class='text'>
+        Op een bepaalde datum geven wij door waar de reis ongeveer naar toe gaat zodat je zelf de overnachtingen naar eigen wens kunnen boeken.
+        </div>
+
+        <div class='text'>
+        We vertrekken samen vanaf het eerste vaste punt wat doorgegeven wordt, dit zal in ieder geval niet in Nederland zelf zijn, maar om en nabij een 800 km verder. Op de eerste dag krijgen je per email de route doorgestuurd van dag 1…..Hoe lang je over de route doet mogen je helemaal zelf weten. We zullen je op de route het nodige vertellen wat je tegenkomt en soms kan er nog wel een opdracht in de mail staan. Deze opdracht is niet verplicht maar misschien wel leuk ;-)
+        Bij aankomst op het eindpunt van dag 1 krijg je de route voor dag 2. Het staat je die avond vrij om lekker alleen ergens te gaan eten of misschien heb je onderweg al nieuwe vrienden gemaakt en ga je gezellig samen wat eten en drinken. Op het eindpunt van dag 2 krijg je wederom pas de route van dag 3 etc…Tot we aankomen bij uiteindelijk dat 6 waar we de gezamenlijk tour eindigen. 
+        Na dag 6 kun je zelf beslissen of je nog verder gaan op vakantie of dat je weer richtig huis gaan. 
+        </div>
+
+        <div class='text'>
+        Bij het inschrijven graag vermelden hoeveel personen per auto, omdat iedere deelnemer van ons iets krijgt waarmee we elkaar onderweg kunnen herkennen.
+        </div>
+
+        <div class='text'>
+        Heb je nog vragen? Mail ons gerust op …...
+        </div>
+
 
     
     

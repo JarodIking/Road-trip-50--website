@@ -3,11 +3,15 @@ body, html{
     margin: 0%;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 .background-image {
     position: absolute;
     left: 0;
     right: 0;
-    z-index: 1;
+    z-index: 0;
     display: block;
     background-image: url('../media/background.JPG');
     background-size: cover;
@@ -26,14 +30,17 @@ body, html{
     position: relative;
     padding: 10px;
     margin: auto;
-    top: 8%;
-    width: 50%;
+    top: 9%;
+    width: 70%;
     height: auto;
+    max-height: 85%;
     border: white 2px solid;
     border-radius: 20px;
     z-index: 1;
     color: white;
     text-align: center;
+    overflow-y: scroll;
+    
 }
 
 .title{
@@ -46,7 +53,7 @@ body, html{
 
 .text{
     position: relative;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
     width: auto;
     height: auto;
     font-size: 25px;
