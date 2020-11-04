@@ -2,6 +2,7 @@ window.addEventListener('load', () => {
     const title = document.getElementById('openingFotoTitle');
     const navButs = document.getElementById('navButtons');
     const reg = document.querySelector('#registerButton');
+    const reg1 = document.querySelector('#registerButtonMenu');
     const vision = document.querySelector('#ourVision');
     const how = document.querySelector('#howItWorks');
 
@@ -13,20 +14,14 @@ window.addEventListener('load', () => {
         window.location.href ="menu2/";
     }
 
-
-
-
-
-
-
-
-
-
-
+    reg1.onclick = ()=>{
+        window.location.href ="registeration/";
+    }
 
     reg.onclick = ()=>{
         window.location.href ="registeration/";
     }
+
 
 
     // title animation
@@ -61,6 +56,11 @@ window.addEventListener('load', () => {
         }
     }
     var navButsAni; 
+
+
+
+    // nav button 'inschrijven' animation
+    
 
 
 

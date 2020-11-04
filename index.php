@@ -90,8 +90,10 @@
       </div>
 
       <div id="closingFoto">
-        <div id='buttonOuter'>
-          <div id='registerButton'>Inschrijven</div>
+        <div class='centerAlign'>
+          <div id='buttonOuter'>
+            <div id='registerButton'>Inschrijven</div>
+          </div>
         </div>
         <img src="media/fotos/closingFoto.jpg" > 
       </div>
