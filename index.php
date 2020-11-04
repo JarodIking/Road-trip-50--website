@@ -35,6 +35,13 @@
             </div>
           </div>
 
+          <div id='registerButtonMenu' class='navButtonsOuter'>
+            <div class='navButtonsInner'>
+                Inschrijven
+            </div>
+          </div>
+
+
           <div id='howItWorks' class='navButtonsOuter'>
             <div class='navButtonsInner'>
                 Hoe Werkt het?
