@@ -1,17 +1,27 @@
 body{
     height: 200%;
-    margin: 0%;
-    width: 100%;
-    background-color: black;
+    /* width: 100%; */
+    background-color: black !important;
+}
 
+.my-col img {
+    width: 100%;
 }
 
 
-img {
+#openingFoto>img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
+
+#closingFoto>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
 
 #openingFoto{
     position: relative;
@@ -38,6 +48,7 @@ img {
     font-size: 25px;
     border: white 1px solid;
     border-radius: 60px;
+    text-align: center;
 }
 
 .navButtonsOuter{
@@ -64,123 +75,48 @@ img {
     opacity: 0;
 }
 
+.my-container{
+    z-index: 5;
+}
+
+.my-row{
+    margin-bottom: -24px;
+}
+
+.my-col{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    background-color: white;
+}
+
+@media screen and (max-width: 600px) {
+    div.my-col {
+      font-size: 100px;
+    }
+  }
+  
 
 .textTop{
-    position: absolute;
-    height: auto;
-    width: auto;
-    border: black 2px solid;
-    border-radius: 10px;
     text-align: center;
-    font-size: 30;
-    top: 10%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 100px;
 }
 
 .textBottom{
-    position: absolute;
-    height: auto;
-    width: auto;
-    border: black 2px solid;
-    border-radius: 10px;
     text-align: center;
-    font-size: 30;
-    bottom: 5%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 50px;
+    margin-bottom: 70px;
 
 }
 
-
-
-
-
-
-/* flexbox 1 */
-#flexbox1{
-    display: flex;
-    flex-wrap: wrap;
+.my-col>img{
     width: 100%;
-    height: 30%;
-    margin-top: 1%;
-}
-
-#img0{
-    position: relative;
-    width: 40%;
-    height: 100%;
-    float: left;
-    flex: 50%;
-
-}
-
-#text0{
-    position: relative;
-    width: 60%;
-    height: 100%;
-    float: left;
-    background-color: white;
-    flex: 50%;
-    overflow-y: scroll;
-}
-
-/* flexbox 2 */
-#flexbox2{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    height: 30%;
-    margin-top: 1%;
-}
-
-#img1{
-    position: relative;
-    width: 40%;
-    height: 100%;
-    float: left;
-    flex: 50%;
-
-}
-
-#text1{
-    position: relative;
-    width: 60%;
-    height: 100%;
-    float: left;
-    background-color: white;
-    flex: 50%;
-}
-
-/* flexbox 3 */
-#flexbox3{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    height: 30%;
-    margin-top: 1%;
-}
-
-#img2{
-    position: relative;
-    width: 40%;
-    height: 100%;
-    float: left;
-    flex: 50%;
-
-}
-
-#text2{
-    position: relative;
-    width: 60%;
-    height: 100%;
-    float: left;
-    background-color: white;
-    flex: 50%;
+    object-fit: cover;
+    
 }
 
 #closingFoto{
     position: relative;
     width: auto;
-    margin-top: 1%;
     height: 50%;
     z-index: 0;
 }
@@ -194,7 +130,7 @@ img {
     font-size: 100px;
     color: white;
     border: 3px white solid;
-    border-radius: 60px;
+    border-radius: 90px;
 }
 
 .centerAlign{
@@ -212,7 +148,7 @@ img {
     height: auto;
     width: auto;
     border: 8px white solid;
-    border-radius: 70px;
+    border-radius: 100px;
     cursor: pointer;
 }
 

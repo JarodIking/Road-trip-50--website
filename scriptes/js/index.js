@@ -5,21 +5,26 @@ window.addEventListener('load', () => {
     const reg1 = document.querySelector('#registerButtonMenu');
     const vision = document.querySelector('#ourVision');
     const how = document.querySelector('#howItWorks');
+    const contact = document.querySelector('#contact');
 
     vision.onclick = ()=>{
-        window.location.href ="menu1/";
+        window.location.href ="pages/menu1/";
     }
 
     how.onclick = ()=>{
-        window.location.href ="menu2/";
+        window.location.href ="pages/menu2/";
     }
 
     reg1.onclick = ()=>{
-        window.location.href ="registeration/";
+        window.location.href ="pages/registeration/";
     }
 
     reg.onclick = ()=>{
-        window.location.href ="registeration/";
+        window.location.href ="pages/registeration/";
+    }
+
+    contact.onclick = ()=>{
+        window.location.href ="pages/contact/";
     }
 
 
@@ -48,7 +53,6 @@ window.addEventListener('load', () => {
     let q = 0;
     navButAniCal = () =>{
         q = q + 0.01
-        console.log(q);
         navButs.style.opacity = q;
 
         if(q > 1){
@@ -59,8 +63,76 @@ window.addEventListener('load', () => {
 
 
 
-    // nav button 'inschrijven' animation
-    
+    // nav button 'inschrijven' animation    
+    // let num = 0;
+    // setInterval(()=>{
+    //     if(num == 0){
+    //         $("#registerButtonMenu").animate({
+    //             width: '170px'
+    //         },"slow")
+    //         num = 1;
+    //     } else {
+    //         $("#registerButtonMenu").animate({
+    //             width: '150px'
+    //         },"slow")
+    //         num = 0;
+
+    //     }
+    // })
+
+
+
+
+    // other nav button animations
+    $("#ourVision").mouseenter(()=>{
+        $("#ourVision").animate({
+            width: '180px'
+        }, "fast");
+    })
+    $("#ourVision").mouseleave(()=>{
+        $("#ourVision").animate({
+            width: '150px'
+        }, "fast");
+    })
+
+
+    $("#registerButtonMenu").mouseenter(()=>{
+        $("#registerButtonMenu").animate({
+            width: '200px'
+        }, "fast");
+    })
+    $("#registerButtonMenu").mouseleave(()=>{
+        $("#registerButtonMenu").animate({
+            width: '150px'
+        }, "fast")
+    })
+
+
+    $("#howItWorks").mouseenter(()=>{
+        $("#howItWorks").animate({
+            width: '240px'
+        }, "fast");
+    })
+    $("#howItWorks").mouseleave(()=>{
+        $("#howItWorks").animate({
+            width: '200px'
+        }, "fast")
+    })
+
+
+
+    $("#contact").mouseenter(()=>{
+        $("#contact").animate({
+            width: '170px'
+        }, "fast")
+    })
+    $("#contact").mouseleave(()=>{
+        $("#contact").animate({
+            width: '120px'
+        }, "fast")
+    })
+
+
 
 
 
