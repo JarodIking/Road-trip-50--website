@@ -131,6 +131,7 @@ body{
     color: white;
     border: 3px white solid;
     border-radius: 90px;
+    text-align: center;
 }
 
 .centerAlign{

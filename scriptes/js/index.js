@@ -81,6 +81,21 @@ window.addEventListener('load', () => {
     // })
 
 
+    //animation variables
+    let a1 = $("#ourVision");
+    let a2 = $("#ourVision");
+
+    let a3 = $("#registerButtonMenu");
+    let a4 = $("#registerButtonMenu");
+
+    let a5 = $("#howItWorks");
+    let a6 = $("#howItWorks");
+
+    let a7 = $("#contact");
+    let a8 = $("#contact");
+
+    let a9 = $("#registerButton");
+    let a10 = $("#registerButton");
 
 
     // other nav button animations
@@ -88,23 +103,33 @@ window.addEventListener('load', () => {
         $("#ourVision").animate({
             width: '180px'
         }, "fast");
+        a1.clearQueue();
+
     })
+
     $("#ourVision").mouseleave(()=>{
         $("#ourVision").animate({
             width: '150px'
         }, "fast");
+        a2.clearQueue();
+
     })
+
 
 
     $("#registerButtonMenu").mouseenter(()=>{
         $("#registerButtonMenu").animate({
             width: '200px'
         }, "fast");
+        a3.clearQueue();
+
     })
     $("#registerButtonMenu").mouseleave(()=>{
         $("#registerButtonMenu").animate({
             width: '150px'
-        }, "fast")
+        }, "fast");
+        a4.clearQueue();
+  
     })
 
 
@@ -112,11 +137,15 @@ window.addEventListener('load', () => {
         $("#howItWorks").animate({
             width: '240px'
         }, "fast");
+        a5.clearQueue();
+
     })
     $("#howItWorks").mouseleave(()=>{
         $("#howItWorks").animate({
             width: '200px'
         }, "fast")
+        a6.clearQueue();
+
     })
 
 
@@ -125,12 +154,33 @@ window.addEventListener('load', () => {
         $("#contact").animate({
             width: '170px'
         }, "fast")
+        a7.clearQueue();
+
     })
     $("#contact").mouseleave(()=>{
         $("#contact").animate({
             width: '120px'
         }, "fast")
+        a8.clearQueue();
+
     })
+
+    //bottom registeration button
+    $("#registerButton").mouseenter(()=>{
+        $("#registerButton").animate({
+            width: '700px'
+        }, "fast")
+        a9.clearQueue();
+
+    })
+    $("#registerButton").mouseleave(()=>{
+        $("#registerButton").animate({
+            width: '510px'
+        }, "fast")
+        a10.clearQueue();
+
+    })
+
 
 
 

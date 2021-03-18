@@ -55,6 +55,8 @@ input[type='text']{
     font-size: 20px;
     border-radius: 20px;
     text-align: center;
+    background-color:rgba(0, 0, 0, 0.4);
+
 }
 
 input[type='tel']{
@@ -66,6 +68,8 @@ input[type='tel']{
     font-size: 20px;
     border-radius: 20px;
     text-align: center;
+    background-color:rgba(0, 0, 0, 0.4);
+
 }
 
 input[type='email']{
@@ -77,6 +81,8 @@ input[type='email']{
     font-size: 20px;
     border-radius: 20px;
     text-align: center;
+    background-color:rgba(0, 0, 0, 0.4);
+
 }
 
 textarea{
@@ -88,6 +94,8 @@ textarea{
     color: white;
     font-size: 20px;
     border-radius: 20px;
+    background-color:rgba(0, 0, 0, 0.4);
+
 }
 
 #send{
@@ -102,6 +110,8 @@ textarea{
     font-size: 20px;
     border-radius: 20px;
     cursor: pointer;
+    background-color:rgba(0, 0, 0, 0.4);
+
 }
 
 #back{
@@ -117,4 +127,6 @@ textarea{
     font-size: 20px;
     border-radius: 20px;
     cursor: pointer;
+    background-color:rgba(0, 0, 0, 0.4);
+
 }
