@@ -52,7 +52,7 @@ if(!isset($_POST['hidden']) || $_POST['hidden'] === ''){
 
         //Recipients
         $mail->setFrom($email, $name);
-        $mail->addAddress('deathhounddutch@gmail.com', 'Liesbeth Engelberts');     // Add a recipient
+        $mail->addAddress('liesbeth345@gmail.com', 'Liesbeth Engelberts');     // Add a recipient
 
         $body = "
             <h1>Contact van ". $name . "</h1>
