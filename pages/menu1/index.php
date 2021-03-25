@@ -1,6 +1,5 @@
 <html>
 <head>
-
     <link rel="stylesheet" href="core/css.css">
     <script src='core/js.js'></script>
     <meta charset="UTF-8">

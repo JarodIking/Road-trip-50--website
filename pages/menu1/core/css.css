@@ -31,12 +31,14 @@ body, html{
     position: relative;
     padding: 10px;
     margin: auto;
-    top: 11%;
+    top: 80px;
+    
     width: 50%;
     height: auto;
     max-height: 85%;
     border: white 2px solid;
     border-radius: 20px;
+    box-sizing: border-box;
     z-index: 1;
     color: white;
     text-align: center;
