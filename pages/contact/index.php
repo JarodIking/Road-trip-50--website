@@ -8,6 +8,8 @@
     <head>
         <link rel='stylesheet' href='scriptes/css.css'>
         <script src='scriptes/js.js'></script>
+        <script src="https://www.google.com/recaptcha/api.js"></script>
+
 
         <meta charset="UTF-8">
         <meta name="description" content="Road trip Inschrijven">
@@ -20,7 +22,7 @@
     <button id='back' type='submit'>Back</button>
 
         <div class='reg-container'>
-            <form method="post" action='send.php'>
+            <form id='form' method="post" action='send.php'>
                 <div class='inputField'>
                     Name
                     <br>
@@ -37,11 +39,16 @@
                     <textarea name="message" id="" cols="30" rows="10" placeholder='enter message' required></textarea>
                 </div>
                 <input type="hidden" name='hidden'>
-                <button id='send' type='submit'>Send Email</button>
+                <button id='send' type='submit' id='send' type='submit' class="g-recaptcha" data-sitekey="6Lf_yKYaAAAAAEeASvxRQ5hBp4AWviRoR6pk3eJe" data-callback='onSubmit' data-action='submit'>Send Email</button>
             </form>
         </div>
 
 
+        <script>
+            function onSubmit(token) {
+                document.getElementById("form").submit();
+            }
+        </script>
 
     </body>
 </html>
